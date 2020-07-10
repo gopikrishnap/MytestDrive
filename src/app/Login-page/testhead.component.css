@@ -1,0 +1,109 @@
+.loginheader{
+    padding: 40px
+}
+.organize{
+    padding: 19px;
+    border-bottom: 2px solid #23b1a9;
+    /* box-shadow: 2px 2px #23b1a9; */
+    box-shadow: 1px 2px grey; 
+    margin-bottom: 5px;
+    
+}
+.organize p{
+    color: #919699;
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 12pt;
+}
+.organize h5{
+    color: #000000;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 12pt;
+}
+.loginfooter{
+    background-color : #23b1a9;
+    padding: 2px;
+    text-align: center;
+}
+.loginfooter-p1{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 0;
+}
+.LoginFooter-span{
+    font-size: 13px;
+    font-weight: 4;
+    color: white;
+}
+
+.buttonlink{
+	border: 3px solid #dee2e6;
+    border-radius: 72px;
+    background-color: white;
+
+} 
+.login-btns {
+    border: 1px solid #dee2e6 ;
+    border-radius: 72px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 22px;
+    box-shadow: 1px 2px grey;
+}
+
+ .H4tag{
+    margin-bottom: 0;
+}
+.margin-none{
+    margin: 0;
+}
+.padding-none{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.card-backgrodcolr{
+    background-color: #f3fbfb;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #152F38;
+}
+
+.facebook-p{
+    font-weight: 600;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 12pt;
+    color: #152F38;
+}
+.facebook-subp{
+    font-size: 11px;
+    margin: 0;
+}
+.facebook-size{
+    width: 85%;
+    margin-left: 19px;
+    height: 66px;
+}
+.google-size{
+    width: 86%; margin-left: 16px;height: 66px;
+}
+.email-size {
+    width: 85%;
+    margin-left: 20px;
+    height: 62px;
+}
+
+.font-style-ph{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 12pt;
+    color: #152F38;
+}
+.font-style-sh{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 10pt;
+    color: #152F38;
+}
