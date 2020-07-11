@@ -1,0 +1,50 @@
+.task-width{
+width: 40%;
+border: 1px solid #dee2e6;
+border-left: none;
+    border-radius:  27px  0 0 27px;
+    background-color: #152F38;
+    color: white;
+    border-right-width: 0px;
+    margin-left: 36px;
+}
+.calender-width{
+    width: 40%;
+    border: 1px solid #00000051;
+    border-radius: 0 27px 27px 0;
+    background-color: #FFFFFF;
+}
+.task-image{
+    margin-left: 45px;
+    padding-right: 10px;
+
+
+}
+.calender-image{
+    margin-left: 36px;
+    padding-right: 10px;
+}
+.task-calender{
+    background-color: #23B1A9;
+    padding: 12px;
+}
+
+.event-showing{
+    font-weight: 600;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 12pt;
+    color: #1E9690;
+}
+.event-showsub{
+    font-size: 11px;
+    margin: 0;
+    color: #919699;
+}
+
+.setting-img{
+    margin-left: 97px;
+}
+.setting-img-head{
+    padding-right: 0;
+}

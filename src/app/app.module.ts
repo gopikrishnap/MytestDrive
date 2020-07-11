@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HeaderSalesdrveComponent } from './header-salesdrve/header-salesdrve.component';
 import { OpportunitiesComponent } from './opportunities/opportunities.component';
 import { TestheadComponent } from './Login-page/testhead.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderSalesdrveComponent,
     OpportunitiesComponent,
-    TestheadComponent
+    TestheadComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
