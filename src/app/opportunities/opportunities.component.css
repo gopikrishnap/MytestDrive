@@ -34,13 +34,7 @@
   }
 
 .menubar{
-    border: 1px solid #ced4da;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-    background: #e9ecef;
-    width: 59px;
-    padding: 5px 9px 2px 1px;
+    border-right: 1px solid #ced4da;
 }
 .salesdrivelog{
     margin-left: 19px;
@@ -95,8 +89,8 @@
     }
   } */
 
-  
+/*   
 .col-3{
   border: 1px solid black;
 
-}
+} */
