@@ -6,6 +6,7 @@ import { HeaderSalesdrveComponent } from './header-salesdrve/header-salesdrve.co
 import { OpportunitiesComponent } from './opportunities/opportunities.component';
 import { TestheadComponent } from './Login-page/testhead.component';
 import { EventsComponent } from './events/events.component';
+import { AllbuttonsComponent } from './allbuttons/allbuttons.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EventsComponent } from './events/events.component';
     HeaderSalesdrveComponent,
     OpportunitiesComponent,
     TestheadComponent,
-    EventsComponent
+    EventsComponent,
+    AllbuttonsComponent
   ],
   imports: [
     BrowserModule,

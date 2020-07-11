@@ -1,0 +1,120 @@
+/* button-all -css */
+.badge-allheader {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  border-width: 2px;
+}
+
+.btn-focus:active {
+  background-color: red !important;
+  /* border-color: white !important;
+  color: white !important; */
+}
+.badge-all {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  padding: 0px 10px;
+  border-radius: 36px 0px 0px 0px;
+  background-color: #10242b;
+  color: white;
+}
+.badge-text {
+  color: black;
+  font-weight: 400;
+}
+.badge-text-right {
+  color: black;
+  font-weight: 400;
+  margin-right: 33px;
+}
+
+/* button-all -css end */
+
+/* button-phone -css */
+.badge-phoneheader {
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  background-color: #4285f4;
+  border-width: 2px;
+}
+
+.btn-focus:active {
+  background-color: #f8f9fa !important;
+  border-color: white !important;
+  color: white !important;
+}
+.badge-phone {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  padding: 0px 10px;
+  border-radius: 36px 0px 0px 0px;
+  background-color: #1947a5;
+  color: white;
+}
+.badge-text {
+  color: black;
+  font-weight: 400;
+}
+/* button-all -phone end */
+
+.badge-gmail {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  padding: 0px 10px;
+  border-radius: 36px 0px 0px 0px;
+  background-color: #d1121b;
+  color: white;
+}
+.badge-outlook {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  padding: 0px 10px;
+  border-radius: 36px 0px 0px 0px;
+  background-color: #224680;
+  color: white;
+}
+.button-border-phone {
+  border-color: #23b1a9;
+  margin-right: 5px;
+}
+.button-border-gmail {
+  border-color: #d1121b;
+  margin-right: 5px;
+}
+.button-border-all {
+  border-color: #23b1a9;
+  margin-right: 5px;
+}
+.button-border-outlook {
+  border-color: #0072c6;
+}
+.main-button-head {
+ margin-left: 0;
+ margin-right: 0;
+  padding: 0;
+}
+.btn.btn-light.badge-allheader.button-border-gmail:active{
+    background-color: #d1121b !important;
+}
+.btn.btn-light.badge-allheader.button-border-phone:active {
+  background-color: #0072c6 !important;
+}
+/* 
+.button-border-gmail:active {
+  background-color: #d1121b !important;
+} */
+.btn.btn-light.badge-allheader.button-border-outlook:active {
+  background-color: #0072c6 !important;
+}
+

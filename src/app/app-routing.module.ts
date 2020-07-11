@@ -4,13 +4,15 @@ import { HeaderSalesdrveComponent } from './header-salesdrve/header-salesdrve.co
 import { OpportunitiesComponent } from './opportunities/opportunities.component';
 import { TestheadComponent } from './Login-page/testhead.component';
 import { EventsComponent } from './events/events.component';
+import { AllbuttonsComponent } from './allbuttons/allbuttons.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: 'leadinfo', pathMatch: 'full' },
   { path: 'Headsaledrive', component: HeaderSalesdrveComponent },
   {path:'Opportunities',component:OpportunitiesComponent},
   {path:'test',component:TestheadComponent},
-  {path:'event',component:EventsComponent}
+  {path:'event',component:EventsComponent},
+  {path:'allbuttons',component:AllbuttonsComponent}
 
 ];
 
