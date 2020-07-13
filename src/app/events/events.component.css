@@ -1,3 +1,48 @@
+/* Header css start */
+.Main-header{
+    border-bottom: 1px solid #ced4da;
+    width: 100%;
+    /* margin-left: 4px; */
+    box-shadow: 0px 1px #ced4da;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.notification {
+    /* background-color: #555; */
+    color: white;
+    text-decoration: none;
+    /* padding: 15px 26px; */
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 10px;
+
+  }
+  .notification .badge {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    padding: 1px 1px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+  .Profile-head{
+    margin-right: 65px;
+
+  }
+
+.menubar{
+    border-right: 1px solid #ced4da;
+}
+.salesdrivelog{
+    margin-left: 19px;
+}
+
+/* Header css end */
+
 .task-width{
 width: 40%;
 border: 1px solid #dee2e6;
@@ -26,7 +71,7 @@ border-left: none;
 }
 .task-calender{
     background-color: #23B1A9;
-    padding: 12px;
+    padding: 8px;
 }
 
 .event-showing{

@@ -86,23 +86,24 @@
 }
 .button-border-phone {
   border-color: #23b1a9;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 .button-border-gmail {
   border-color: #d1121b;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 .button-border-all {
   border-color: #23b1a9;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 .button-border-outlook {
   border-color: #0072c6;
 }
 .main-button-head {
- margin-left: 0;
- margin-right: 0;
-  padding: 0;
+  width: 100%;display: inline-flex; 
+  overflow-x: scroll; 
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 .btn.btn-light.badge-allheader.button-border-gmail:active{
     background-color: #d1121b !important;
@@ -118,3 +119,23 @@
   background-color: #0072c6 !important;
 }
 
+
+.main-button-head::-webkit-scrollbar{
+  display: none;
+}
+
+.buttone-4{
+  width: 26%;
+  margin-right: 10px;
+
+}
+
+
+
+   /* inputbox */
+.inpuboxxxx{
+  margin-left: 40px;
+  margin-bottom: 16px;
+  width :50%;
+  line-height: 0;
+}
