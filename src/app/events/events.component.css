@@ -95,4 +95,113 @@ border-left: none;
 }
 
 
+/* my studio css */
+
+/* .scroll-y-list{
+    overflow-y: auto;
+      height: 200px;
+       overflow-x: hidden;
+  }
+  .display-list-event{
+  margin-bottom :10px;
+  }
   
+  .scroll-y-listt::-webkit-scrollbar{
+    display: none;
+  }
+  .scroll-y-listt::-webkit-scrollbar {
+      width: 0px; 
+      background: transparent;  
+  }
+  
+  .scroll-y-listt::-webkit-scrollbar-thumb {
+      background: #FF0000;
+  }
+  
+  .check-box-1{
+      border: 1px solid #C1C8CC;
+      border-top:none ;
+      height: 80px ;
+      padding-top : 20px;
+       box-shadow: 0 0 3px #00000051;
+  }
+  .clock-image{
+      height: 20px;
+       margin: 0;
+  
+  }
+  .setting-img{
+   height: 20px;
+   margin: 0;
+  
+  }
+  
+  .row-allimages{
+   border: 1px solid #C1C8CC;
+     box-shadow: 0 0 3px #00000051;
+  }   
+  
+  .checkbox-labelevent{
+        margin-left: 17px;
+  
+  }
+  .checkbox-tick{
+     margin-left: 17px;
+  }
+  
+  .form-control.Text-inout-conrol{
+       border-radius: 16px 16px 16px 16px;
+  }
+  
+  .add-img{
+   height: 30px;
+   background: #C1C8CC;
+      border-radius: 50%;
+      padding: 7px;
+  } 
+  .search-img{
+   height: 30px;
+   background: #23B1A9;
+      padding: 6px;
+      border-radius: 50%;
+  }
+  
+  
+  .event-input-text{
+      width: 80%;
+  }
+  .event-search-text{
+      margin-left: 15px;
+  
+  }
+  .event-add-text{
+      margin-left: 10px;
+  
+  } */
+  
+  
+  
+  
+   /*  footer event start */
+/*   
+  .event-opport-footer{
+      border: 1px solid #C1C8CC;
+      border-left:none;
+          padding: 9px;
+  
+  }
+  .event-footer{
+    border: 1px solid #C1C8CC;
+        padding: 9px;
+  
+  }
+  .event-footer-settings{
+      padding: 9px;
+    border: 1px solid #C1C8CC;
+  }
+  .opertunies-text{
+  text-align: center;
+  margin-top: 10px ;
+   color: #A9AFB3;
+  } */
+   /* footer event end */

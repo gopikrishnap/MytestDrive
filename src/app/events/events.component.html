@@ -20,54 +20,54 @@
 <!-- SalesDrive header End-->
 
 <div class="container">
-    <div class="row task-calender">
-        <div class="task-width">
-            <img src="../../assets/images/images/sub-folder.png" class="task-image" height="30" width="30" alt="google">
-            <span>task</span>
-        </div>
-        <div class="calender-width">
-            <img src="../../assets/images/images/sub-calender.png" class="calender-image" height="30" width="30" alt="google">
-            <span>Calender</span>
-        </div>
+  <div class="row task-calender">
+    <div class="task-width">
+      <img src="../../assets/images/images/sub-folder.png" class="task-image" height="30" width="30" alt="google">
+      <span>task</span>
     </div>
+    <div class="calender-width">
+      <img src="../../assets/images/images/sub-calender.png" class="calender-image" height="30" width="30" alt="google">
+      <span>Calender</span>
+    </div>
+  </div>
 </div>
 <div class="container">
-    <div class="row">
-        <div class="col-5">
-            <h5 class="event-showing">Showing 04</h5>
-            <p class="event-showsub">out of 45 seconds</p>
-        </div>
-        <nav aria-label="..." class="col-7">
-            <ul class="pagination">
-                <li class="page-item disabled">
-                  <img src="../../assets/images/images/sub-arrow-back.png" class="page-link" height="37" alt="">
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item active">
-                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <img src="../../assets/images/images/sub-arrow-next.png" class="page-link" height="37" alt="">
-                </li>
-            </ul>
-        </nav>
+  <div class="row">
+    <div class="col-5">
+      <h5 class="event-showing">Showing 04</h5>
+      <p class="event-showsub">out of 45 seconds</p>
     </div>
+    <nav aria-label="..." class="col-7">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <img src="../../assets/images/images/sub-arrow-back.png" class="page-link" height="37" alt="">
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active">
+          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <img src="../../assets/images/images/sub-arrow-next.png" class="page-link" height="37" alt="">
+        </li>
+      </ul>
+    </nav>
+  </div>
 </div>
 
 <div class="container card" *ngFor="let item of items; index as i; ">
-    <div class="card-header setting-img-head">
-        <img src="../../assets/images/clock.png" alt="" style="margin-right: 22px;">
-      <span>Sat Jul 11 2020 13:38:39 GMT+0530</span>
-      <img class="setting-img" src="../../assets/images/setting.png" height="30" width="30" alt="">
-    </div>
-    <div class="card-body">
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">{{item}}</label>
-          </div>
+  <div class="card-header setting-img-head">
+    <img src="../../assets/images/clock.png" alt="" style="margin-right: 22px;">
+    <span>Sat Jul 11 2020 13:38:39 GMT+0530</span>
+    <img class="setting-img" src="../../assets/images/setting.png" height="30" width="30" alt="">
+  </div>
+  <div class="card-body">
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">{{item}}</label>
     </div>
   </div>
+</div>
 <!-- 
   <div class="row" *ngFor="let item of items; index as i;">
     <div class="col-6">
@@ -92,4 +92,71 @@
 
 
 
-  
+
+<div class="container">
+  <div class="row display-line">
+    <div class="col-2">
+      <img src="./assets/Events/clock.png" class="clock-image">
+    </div>
+    <div class="col-8">
+      <span>Sat Jul 11 2020 13:38:39 GMT+0530</span>
+    </div>
+    <div class="col-2">
+      <img src="./assets/Events/settings.png" class="setting-img">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="scroll-y-list">
+	<div *ngfor="let item of {items}; index as i" class="container display-list-event">
+		<div class="row row-allimages">
+			<div class="col-2">
+				<img src="./assets/Events/clock.png" class="clock-image">
+			</div>
+			<div class="col-9">
+				<span>Sat Jul 11 2020</span>
+				<span> 10:38:pm</span>
+			</div>
+			<div class="col-1">
+				<img src="./assets/Events/settings.png" class="setting-img">
+			</div>
+		</div>
+		<div class="row check-box-1">
+			<input type="checkbox" id="exampleCheck1" class="checkbox-tick">
+			<label for="exampleCheck1" class="form-check-label checkbox-labelevent">{{item}}</label>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="event-input-text">
+			<input type="Text" placeholder="I Want to" class="form-control Text-inout-conrol">
+		</div>
+		<div class="event-search-text">
+			<img src="./assets/Events/search.png" class="search-img">
+		</div>
+		<div class="event-add-text">
+			<img src="./assets/Events/addbutton.png" class="add-img">
+		</div>
+	</div>
+</div>
+<div id="cl" class="container">
+	<div class="row">
+		<div class="col-4 event-opport-footer">
+			<div>
+				<img src="./assets/Events/opportunities.png" height="30" width="30" alt="" class="img-fluid">
+				<p id="izjaf" class="opertunies-text">opportunities </p>
+			</div>
+		</div>
+		<div class="col-4 event-footer">
+			<img src="./assets/Events/events.png" height="30" width="30" alt="" class="img-fluid">
+			<p class="opertunies-text">Events</p>
+		</div>
+		<div class="col-4 event-footer-settings">
+			<img src="./assets/Events/footersettings.png" height="30" width="30" alt="" class="img-fluid">
+			<p class="opertunies-text">Settings</p>
+		</div>
+	</div> -->
+</div>
