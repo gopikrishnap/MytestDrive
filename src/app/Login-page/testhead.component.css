@@ -166,74 +166,62 @@
 
 
 
-
+/* 
 .html-block-container.Htmi-container {
     margin-top: 0px !important;
   }
-  
   .Image-log-drive {
     height: 34px;
     width: 48%;
     margin-left: 0px;
   }
-  
   .um-control.login-comtainer {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     width: 100%;
   }
-  
   .loginheader {
     padding: 16px 25px 16px 36px;
   }
-  
   .organize {
     padding: 19px;
     border-bottom: 2px solid #23b1a9;
-      /* box-shadow: 2px 2px #23b1a9; */
     box-shadow: 0px 2px grey;
     margin-bottom: 5px;
   }
-  
   .organize p {
     color: #919699;
     font-family: Roboto;
     font-weight: 100;
     font-size: 10pt;
   }
-  
   .organize h5 {
     color: #000000;
     font-family: Roboto;
     font-weight: 600;
     font-size: 11pt;
   }
-  
   .loginfooter {
     background-color: #23b1a9;
     padding: 2px;
     text-align: center;
   }
-  
   .loginfooter-p1 {
     font-size: 12px;
     color: white;
     margin-bottom: 0;
   }
-  
   .LoginFooter-span {
     font-size: 13px;
     font-weight: 4;
     color: white;
   }
-  
   .buttonlink {
     border: 3px solid #dee2e6;
     border-radius: 72px;
     background-color: white;
   }
-  
   .login-btns {
     border: 1px solid #dee2e6;
     border-radius: 72px;
@@ -242,43 +230,34 @@
     margin-bottom: 22px;
     box-shadow: 1px 2px grey;
   }
-  
   .H4tag {
     margin-bottom: 0;
   }
-  
   .margin-none {
     margin: 0;
   }
-  
   .logo-margin-bottom {
     margin-bottom: 50px;
   }
-  
   .login-boday {
     margin-bottom: 50px;
   }
-  
   .padding-none {
     padding-left: 0px !important;
     padding-right: 0px !important;
     margin-top: 6px !important;
     padding-top: 2px;
   }
-  
   .padding-none-fbcontent {
     padding-left: 0px !important;
     padding-right: 0px !important;
     padding-top: 5px;
   }
-  
   .padding-none-emailcontent {
     padding-left: 0px !important;
     padding-right: 0px !important;
     padding-top: 12px;
   }
-  
-  
   .card-backgrodcolr {
     background-color: #f3fbfb;
     font-family: Roboto;
@@ -286,7 +265,6 @@
     font-size: 10pt;
     color: #152F38;
   }
-  
   .facebook-p {
     font-weight: 600;
     margin: 0;
@@ -295,34 +273,29 @@
     color: #152F38;
     padding-left: 12px;
   }
-  
   .facebook-subp {
     font-size: 11px;
     margin: 0;
     padding-left: 12px;
   }
-  
   .facebook-size {
     width: 85%;
     margin-left: 19px;
     height: 51px;
     padding: 0;
   }
-  
   .google-size {
     width: 86%;
     margin-left: 16px;
     height: 51px;
     padding: 0;
   }
-  
   .email-size {
     width: 85%;
     margin-left: 20px;
     height: 51px;
     padding: 0;
   }
-  
   .font-style-ph {
     font-family: Roboto;
     font-weight: 600;
@@ -330,7 +303,6 @@
     color: #152F38;
     padding-left: 12px;
   }
-  
   .font-style-sh {
     font-family: Roboto;
     font-weight: 100;
@@ -338,31 +310,26 @@
     color: #152F38;
     padding-left: 12px;
   }
-  
   .google-imag-padding {
     padding-left: 11px;
     margin-left: 12px;
     height: 30px;
   }
-  
   .fb-imag-padding {
     padding-left: 11px;
     margin-left: 12px;
     height: 30px;
   }
-  
   .Email-imag-padding {
     padding-left: 11px;
     margin-left: 12px;
     height: 30px;
   }
-  
   .img-arrow-top {
     margin-top: 7px;
     height: 30px;
-  }
-  
-  @media only screen and (max-width: 330px) {
+  } */
+  /* @media only screen and (max-width: 330px) {
     .login-btns {
       display: inline-flex !important;
     }
@@ -390,5 +357,5 @@
     .font-style-sh {
       font-size: 10pt;
     }
-  }
+  } */
   
